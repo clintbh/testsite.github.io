@@ -19,12 +19,42 @@
     .project h3 {
       margin: 0;
     }
+    /* Style the header and navigation menu */
+    header {
+      background-color: lightgray;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: navy;
+      text-decoration: none;
+      padding: 0 20px;
+    }
+    nav a:hover {
+      color: lightblue;
+    }
   </style>
 </head>
 <body>
-  <h1>Data Analysis Portfolio</h1>
+  <!-- Add a header with the website title and navigation menu -->
+  <header>
+    <h1>Data Analysis Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </header>
   <!-- Add an "About Me" section -->
-  <div class="about">
+  <div class="about" id="about">
     <h2>About Me</h2>
     <p>
       Hi, I'm a data analyst with 5 years of experience working with large datasets. I have a strong background in statistics and machine learning, and I am proficient in Python, R, and SQL. I enjoy using data to solve business problems and drive decision making.
