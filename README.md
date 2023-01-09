@@ -2,55 +2,40 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Data Analysis Portfolio</title>
+  <style>
+    /* Add some style to the page */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: navy;
+    }
+    .project {
+      border: 1px solid lightgray;
+      margin: 20px 0;
+      padding: 20px;
+    }
+    .project h3 {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>My Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section id="home">
-      <div class="container">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-        <div id="blog-preview">
-          <h3>Recent Blog Posts</h3>
-          <article>
-            <h4>Blog Post 1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-            <a href="#">Read More</a>
-          </article>
-          <article>
-            <h4>Blog Post 2</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-            <a href="#">Read More</a>
-          </article>
-        </div>
-        <div id="contact">
-          <h3>Get in Touch</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-          <a href="#" class="btn">Contact Me</a>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <div id="summary">
-          <h3>Summary</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
+  <h1>Data Analysis Portfolio</h1>
+  <!-- Add a section for each project -->
+  <div class="project">
+    <h3>Project 1: Sales Data Analysis</h3>
+    <p>
+      In this project, I analyzed sales data for a large retail company. I used SQL to extract and manipulate the data, and then used Python and matplotlib to create visualizations. The insights I gained from the analysis helped the company make informed decisions about inventory management and marketing strategies.
+    </p>
+  </div>
+  <div class="project">
+    <h3>Project 2: Social Media Analysis</h3>
+    <p>
+      For this project, I analyzed social media data to understand user behavior and trends. I used R and the tidyverse package to clean and organize the data, and then used ggplot2 to create visualizations. The findings from this analysis were used to improve the effectiveness of the company's social media marketing campaigns.
+    </p>
+  </div>
+  <!-- Add additional sections for more projects -->
+</body>
+</html>
