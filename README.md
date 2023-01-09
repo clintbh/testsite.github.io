@@ -7,34 +7,53 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
+    <section id="home">
+      <div class="container">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+        <div id="blog-preview">
+          <h3>Recent Blog Posts</h3>
+          <article>
+            <h4>Blog Post 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+            <a href="#">Read More</a>
+          </article>
+          <article>
+            <h4>Blog Post 2</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+            <a href="#">Read More</a>
+          </article>
+        </div>
+        <div id="contact">
+          <h3>Get in Touch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+          <a href="#" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
     <section id="about">
-      <h1>About Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-    </section>
-    <section id="blog">
-      <h1>Blog Posts</h1>
-      <article>
-        <h2>Blog Post 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-      </article>
-      <article>
-        <h2>Blog Post 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright 2021</p>
-  </footer>
-</body>
-</html>
+      <div class="container">
+        <h2>About Me</h2>
+        <div id="summary">
+          <h3>Summary</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+        </div>
+        <div id="courses">
+          <h3>Courses Completed</h3>
+          <ul>
+            <li>Course 1</li>
+            <li>Course 2</li>
+            <li>Course 3</li>
