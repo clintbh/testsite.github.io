@@ -21,7 +21,7 @@
 
   /* Add a gradient to the header */
   header {
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(to right, var(--dark-color), var(--primary-color));
   }
 
   /* Add a box shadow to the header */
