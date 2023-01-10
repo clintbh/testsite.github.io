@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Data Analysis Portfolio</title>
+  <style>
+    /* Add some style to the page */
+    body {
+      font-family: courier new, sans-serif;
+    }
+    h1 {
+      color: white;
+    }
+    .project {
+      border: 1px solid darkgray;
+      margin: 20px 0;
+      padding: 20px;
+    }
+    .project h3 {
+      margin: 0;
+    }
+    /* Style the header and navigation menu */
+    header {
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0 20px;
+    }
+    nav a:hover {
+      color: navy;
+    }
+  </style>
+</head>
+<body>
+  <!-- Add a header with the website title and navigation menu -->
+  <header>
+    <h1>Data Analysis Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="/testsite.github.io/blog">Blog</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </header>
+  <!-- Add an "About Me" section -->
+  <div class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm a data analyst with 5 years of experience working with large datasets. I have a strong background in statistics and machine learning, and I am proficient in Python, R, and SQL. I enjoy using data to solve business problems and drive decision making.
+    </p>
+  </div>
+  <!-- Add a section for each project -->
+  <div class="project">
+    <h3>Project 1: Sales Data Analysis</h3>
+    <p>
+      In this project, I analyzed sales data for a large retail company. I used SQL to extract and manipulate the data, and then used Python and matplotlib to create visualizations. The insights I gained from the analysis helped the company make informed decisions about inventory management and marketing strategies.
+    </p>
+  </div>
+  <div class="project">
+    <h3>Project 2: Social Media Analysis</h3>
+    <p>
+      For this project, I analyzed social media data to understand user behavior and trends. I used R and the tidyverse package to clean and organize the data, and then used ggplot2 to create visualizations. The findings from this analysis were used to improve the effectiveness of the company's social media marketing campaigns.
+    </p>
+  </div>
+  <!-- Add additional sections for more projects -->
+</body>
+</html>
